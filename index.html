@@ -77,13 +77,16 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-            	<img src="img/me.jpg" id="me">
+            	<img src="img/me.jpg" id="me" class="circular">
             	<style>
-            		#me {	
-            			text-align: center;
-            			padding: 5 px;
-            			width: 200px;
-            		}
+            		.circular {
+				width: 200px;
+				height: 200px;
+				border-radius: 100px;
+				-webkit-border-radius: 100px;
+				-moz-border-radius: 100px;
+				background: url(img/me.jpg) no-repeat;
+	}
             	</style>
                 <h1>What's Up! I'm Djassi Julien</h1>
                 <hr>
